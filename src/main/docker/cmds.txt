@@ -1,0 +1,10 @@
+cd .\src\main\docker
+
+docker exec -it broker bash
+
+docker exec -it broker kafka-topics --create --topic steam-games --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+docker exec -it broker kafka-topics --delete --topic steam-games --bootstrap-server localhost:9092
+
+docker exec -it broker kafka-topics --list --bootstrap-server localhost:9092
+
+docker exec -it broker kafka-console-consumer --bootstrap-server localhost:9092 --topic steam-games --partition 0 --offset 5 --max-messages 10
