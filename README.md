@@ -47,7 +47,7 @@ The F-statistic measures variance between groups relative to variance within gro
 ### Results
 #### **Box Plot - Distribution of Average Playtime by Platform** <br>
 <p float="left">
-<img src="analysis/images/2.png" alt="A21", width="60%">
+<img src="analysis/images/3.png" alt="A21", width="60%">
 </p>
 This box plot compares the average playtime for different platforms, filtering out extreme outliers (5th–95th percentile).
 
@@ -58,7 +58,7 @@ This box plot compares the average playtime for different platforms, filtering o
 
 #### **Histogram - Distribution of Playtime Across Platforms** <br>
 <p float="left">
-<img src="analysis/images/3.png" alt="A22", width="60%">
+<img src="analysis/images/2.png" alt="A22", width="60%">
 </p>
 This histogram shows the distribution of average playtime for different platforms, with each platform's density curve overlaid.
 
@@ -82,7 +82,7 @@ The Mann-Whitney U test is a non-parametric test used to compare two independent
 ### Results
 #### **Box Plot - Distribution of Average Playtime by Game Type** <br>
 <p float="left">
-<img src="analysis/images/4.png" alt="A31", width="60%">
+<img src="analysis/images/5.png" alt="A31", width="60%">
 </p>
 This box plot compares the average playtime between Action and Strategy games, with extreme outliers filtered at the 5th and 95th percentiles.
 
@@ -93,7 +93,7 @@ This box plot compares the average playtime between Action and Strategy games, w
 
 #### **Histogram - Distribution of Playtime Across Game Types** <br>
 <p float="left">
-<img src="analysis/images/5.png" alt="A32", width="60%">
+<img src="analysis/images/4.png" alt="A32", width="60%">
 </p>
 This histogram illustrates the frequency distribution of playtime for Action and Strategy games.
 
